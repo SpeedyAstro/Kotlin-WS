@@ -1,5 +1,6 @@
 fun main(){
     val numbers : IntArray = intArrayOf(1,2,3,4,5,6,7)
+    println(numbers.size)
 //    print(numbers)      // prints address
     println(numbers.contentToString())
     for (ele in numbers) println(ele)
