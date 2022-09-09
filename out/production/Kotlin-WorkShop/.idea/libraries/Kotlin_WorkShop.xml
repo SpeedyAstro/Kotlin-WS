@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Kotlin-WorkShop">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HelloWorld.jar!/" />
+      <root url="jar://$PROJECT_DIR$/classDice.jar!/" />
+      <root url="jar://$PROJECT_DIR$/randomNo.jar!/" />
+      <root url="jar://$PROJECT_DIR$/func.jar!/" />
+      <root url="jar://$PROJECT_DIR$/cake.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
