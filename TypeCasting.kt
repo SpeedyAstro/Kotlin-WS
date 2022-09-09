@@ -25,4 +25,13 @@ fun main(){
             else -> print("Unknown Type : $value")
         }
     }
+
+// Explicit typecasting using "as" can go wrong
+    val ob2 : Any = 1337
+    //val str2 : String = ob2 as String     // does not work
+    //print(str2)
+// Explicit (Safe) typecasting using the "as?" keyword
+    val ob3 : Any = 1337
+    val str2 : String? = ob3 as? String    // does work
+    print(str2)
 }
